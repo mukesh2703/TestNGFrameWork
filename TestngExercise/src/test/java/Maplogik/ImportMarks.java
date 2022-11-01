@@ -31,7 +31,7 @@ public class ImportMarks extends BaseClass {
 		Type.selectByIndex(2);
 //		BaseClass.waitExplicit(driver, ImportMarks.CoarseName, 10);
 		Select Coarse = new Select(CoarseName);
-		Coarse.selectByIndex(0);
+		Coarse.selectByIndex(1);
 //		BaseClass.waitExplicit(driver, ImportMarks.Semester, 10);
 		Select select = new Select(Semester);
 		select.selectByIndex(1);
